@@ -4,15 +4,14 @@
     - dev
 ---
 spring:
-  profiles: dev
-    application: 
-      name: microservicecloud-config-rhy-dev
+  profiles: dev 
+  application: 
+    name: microservicecloud-config-rhy-dev
       
 ---
 spring:
   profiles: test
-    application: 
-      name: microservicecloud-config-rhy-test
+  application: 
+    name: microservicecloud-config-rhy-test
       
 #UTF-8
-     
